@@ -2,7 +2,7 @@ import { Formik, Form, Field } from "formik";
 import { useId } from "react";
 import css from "./SearchBox.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { getFilters, setStatusFilter } from "../../redux/filtersSlise";
+import { getFilters, setStatusFilter } from "../../redux/filtersSlice";
 
 export default function SearchBox() {
   const filter = useSelector(getFilters);
